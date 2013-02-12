@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+    <name>ISF Magazine</name>
+    <creationDate>01/25/13</creationDate>
+    <author>Dean,the Designer</author>
+    <authorEmail>dean@deanthedesigner.com</authorEmail>
+    <authorUrl>http://www.deanthedesigner.com</authorUrl>
+    <copyright>Copyright (C) 2013 Dean,the Designer</copyright>
+    <license>GPL</license>
+    <version>2.5</version>
+    <description> Joomla 2.5 - Template </description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>params.ini</filename>
+        <filename>template_preview.png</filename>
+        <folder>Videos</folder>
+        <folder>jpgs</folder>
+        <folder>images</folder>
+        <folder>imagesmore</folder>
+        <folder>imagebanners</folder>
+        <folder>dropdown</folder>
+        <folder>ISF Slider</folder>
+        <folder>css</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>message</position>
+        <position>navmenu</position>
+        <position>banner-middle</position>
+        <position>footer-menu</position>
+ </positions>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="logoType" type="list" default="image" label="Logo Type" description="Use Site Logo">
+                    <option  value="image">Image</option>
+                    <option  value="text">Text</option>
+                </field>
+                <field name="logoText" type="text" default="LBSaud Demo Template" size="50" label="Logo text" description="Logo Text" />
+                <field name="sloganText" type="text" default="A Better Joomla Template" size="50" label="Slogan" description="Slogan of the site" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
