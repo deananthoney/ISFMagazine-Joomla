@@ -1,0 +1,293 @@
+﻿/****Developed Dean,the Designer ******/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+display: block;
+}
+
+
+body {
+background-image: url('../jpgs/ISFbackground1.jpg') no-repeat;
+text-align:center;
+margin:20px;
+padding:0;
+font:normal 0.8em/1.2em verdana,arial,sans-serif;
+color:#FFF;
+
+}
+#nav {background:#000; width: 100%; }
+#nav ul li{
+list-style-type:none;
+font-family:Helvetica;
+}
+a {
+color:#FFF;
+text-decoration:none;
+border-bottom:1px dotted;
+}
+a:hover {
+border-bottom:1px solid;
+color:#9343B9;
+}
+#wrapper1 {
+position:relative;
+width:100%;
+background:#FFF url('../images/rightcolor_bg.gif') repeat-y top right;
+}
+#wrapper2 {
+position:relative;
+text-align:left;
+width:100%;
+background:#FFF;
+}
+header {
+background:#BB62AB;
+padding:10px;
+margin:0;
+text-align:center;
+color:#FFF;
+}
+header h1 {
+font-size:200%;
+}
+header a:hover {
+color:#7A2875;
+}
+
+#massheader{
+width: 840px;
+height: 200px;
+color:#FFF;
+font-family:Arial,Helvetica,Sans-Serif;
+font-size:12px;
+font-weight:normal;
+text-align:center;
+text-decoration:none;
+position:relative;
+}
+.masthead_logo_container {
+float: left;
+font-size: 11px;
+height: 130px;
+overflow: hidden;
+position: relative;
+width: 255px;
+}
+.selector, x:-moz-any-link, x:default { color:lime; }
+}
+
+.ISFLogo{
+border:none;
+position:relative;
+background: #FFFFFF;
+margin:10px;
+padding:10px;
+border: 2px solid #FFFFFF; 
+}
+
+.whitebanner{ 
+position:relative;
+}
+
+.Channelbanner{
+padding:2cm 16cm 3cm 2cm;
+position:relative;
+}
+
+#LatestNews{
+position:relative;
+font-family:Arial,sans-serif,Helvetica;
+width: 60%;
+float:left;
+}
+
+video{
+float: right;
+position:relative;
+}
+#keyword {
+background-color: #CCCCCC;
+background-image: none;
+border-color: #000000;
+border-style: solid;
+border-width: 0;
+color: black;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 14px;
+font-weight: normal;
+height: 24px;
+margin: 4px 5px 0;
+padding: 4px 0 0 3px;
+position: relative;
+text-align: left;
+vertical-align: top;
+width: 175px;
+ }
+ 
+.masthead_rksform {
+color: #000000;
+font-family: times new roman,times,serif;
+font-size: 12px;
+font-weight: normal;
+text-decoration: none;
+}
+div.box
+{
+width: 840px;
+height: 200px;
+margin: 30px 50px;
+background-color: #ffffff;
+border: 1px solid black;
+position: relative;
+
+}
+div.box p
+{
+margin: 10px 10px;
+font-weight: bold;
+color: #000000;
+}
+
+div.smallbox{
+color:#FFFFFF;
+width: 800px;
+height: 200px;
+position:absolute;
+}
+
+#left {
+  margin-right: 153px;
+}
+#right {
+  margin-left: 150px;
+}
+
+#left_wrapper {
+width: 50%;
+margin-right: -150px;
+float: left;
+position: relative;
+z-index: 0;
+}
+
+#middle_wrapper {
+width: 300px;
+margin-right: -150px;
+float: left;
+position: relative;
+z-index: 2;
+}
+
+#right_wrapper {
+width: 49.9%;
+float: left;
+position: relative;
+z-index: 1;
+}
+#bottom {
+text-align: center;
+list-style-type:none;
+position:relative;
+width:60%;
+z-index: 1000;
+
+}
+/***** Footer *****/
+h3 !important {
+font-size: 12px;
+margin-bottom: 0;
+}
+
+footer,li,ul, a{
+position:relative;
+text-decoration:none;
+font-family:Arial, Helvetica, Verdana, sans-serif;
+color:#FFF;
+text-decoration:none;
+list-style-type:none;
+}
+
+hgroup   {
+font-family:Helvetica Neue;
+font-size: 9px;
+}
+
+p {
+margin: 12px 0;
+font-size: 12px;
+}
+* {
+margin: 0;
+padding: 0;
+}
+.legal {
+color: #FFF;
+font-size: 12px;
+line-height: 13px;
+}
+
+.element style {
+text-decoration: underline;
+}
+
+/****End of Footer***/
+/** footer text**/
+#footer a {
+    color: #fff0de;
+}
+
+img {
+    border: 0 none;
+}
+
+{
+margin: 0;
+padding: 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+#footer {
+/** Gradiant Background ***/
+background-color: #573cff; /* navy blue "fallback" */
+clear: both;
+overflow: hidden;
+/** Gradiant Background ***/
+}
+#footer h3, #footer h3 a {
+    font-size: 12px;
+    margin: 15px 0;
+    text-transform: none;
+}
+#footer a {
+    color: #fff0de;
+    text-decoration: none;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
+.footer-block {
+    float: left;
+    margin: 50px 25px;
+    max-width: 160px;
+}
+.footer-block ul {
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+/***** Mobile Width ****/
+
+	

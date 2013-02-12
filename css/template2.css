@@ -1,0 +1,166 @@
+/***New CSS Developed by Dean ****/
+
+
+
+
+/* End of Layout */
+// If Right-to-Left
+if ($this->direction == 'rtl') :
+    $doc->addStyleSheet('../media/jui/css/bootstrap-rtl.css');
+endif;
+
+// Load specific language related CSS
+$file = 'language/' . $lang->getTag() . '/' . $lang->getTag() . '.css';
+if (JFile::exists($file)) :
+    $doc->addStyleSheet($file);
+endif;
+
+$doc->addStyleSheet('../media/jui/css/chosen.css');
+
+
+/***End of Layout **/
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 960px;
+}
+
+#header {
+    height: 80px;
+    background: #babaff;
+    padding: 10px;
+}
+
+#message {
+    height: 36px;
+    width: 100%;
+    background: #432ce0;
+}
+
+#main_wrapper {
+    width: 960px;
+    height: auto;
+}
+
+#sidebar_left, #sidebar_right {
+    width: 230px;
+    background: #CCCCCC;
+    height:auto;
+    padding: 0 5px;
+}
+
+#sidebar_left {
+    float: left;
+}
+
+#sidebar_right {
+    float: right;
+}
+
+#maincolumn0 {
+    position: relative;
+    width: 470px;
+    float: left;
+    padding: 0 5px;
+}
+
+#maincolumn1 {
+    position: relative;
+    width: 710px;
+    float: left;
+    padding: 0 5px;
+}
+
+#maincolumn2 {
+    position: relative;
+    width: 950px;
+    float: left;
+    padding: 0 5px;
+}
+
+#footer {
+    height: 600px;
+    background: #4407ff;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/***** Footer *****/
+h3 {
+font-size: 12px;
+margin-bottom: 0;
+}
+
+footer,li,ul, a{
+position:relative;
+text-decoration:none;
+font-family:Arial, Helvetica, Verdana, sans-serif;
+color:#FFF;
+text-align:center;
+text-decoration:none;
+list-style-type:none;
+}
+
+hgroup   {
+font-family:Helvetica Neue;
+font-size: 9px;
+}
+
+p {
+margin: 12px 0;
+font-size: 12px;
+}
+* {
+margin: 0;
+padding: 0;
+}
+.legal {
+color: #FFF;
+font-size: 12px;
+line-height: 13px;
+}
+
+.element style {
+text-decoration: underline;
+}
+
+/****End of Footer***/
+
+
+
+/**** Topography *******/
+a:link, a:visited {
+    color: #fdfdff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.actions {
+    list-style: none;
+    float: right;
+}
+
+.actions li {
+    float: left;
+    display: block;
+}
+
+.actions img {
+    padding: 0 4px;
+    border: none;
+}
+
+#footer {
+    color: #FFF;
+    padding: 5px;
+
+}

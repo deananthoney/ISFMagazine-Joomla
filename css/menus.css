@@ -1,0 +1,129 @@
+/*******About Us CSS ****/
+
+#twocols{ /* The columns that gets dropped down over yours might be different. */
+    z-index:20;
+}
+
+#leftcol{  /* The columns that gets dropped down over yours might be different. */
+    z-index:10;
+}
+
+.moduletablemainnav { /* I have absolutely positioned the module, you might have a different scheme. */
+    position:absolute;
+    top:187px;
+    left:20px;
+    z-index:100;
+    font:0.9em Verdana, Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#mainlevelmainnav,#mainlevelmainnav ul {
+    float:left;
+    list-style:none;
+    line-height:1em;
+    background:transparent;
+    font-weight:700;
+    margin:0;
+    padding:0;
+}
+
+#mainlevelmainnav a {
+    display:block;
+    color:#f90;
+    text-decoration:none;
+    margin-right:15px;
+    padding:0.3em;
+}
+
+#mainlevelmainnav li {
+    float:left;
+    padding:0;
+}
+
+#mainlevelmainnav li ul  {
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:11em;
+    font-weight:400;
+    background:#36f;
+    border:#00C 1px solid;
+    margin:0;
+}
+
+#mainlevelmainnav li li {
+    width:11em;
+}
+
+#mainlevelmainnav li ul a {
+    width:11em;
+    color:#fff;
+    font-size:0.9em;
+    line-height:1em;
+    font-weight:400;
+}
+
+#mainlevelmainnav li:hover ul ul,#mainlevelmainnav li:hover ul ul ul,#mainlevelmainnav li.sfhover ul ul,#mainlevelmainnav li.sfhover ul ul ul{
+    left:-999em;
+}
+
+#mainlevelmainnav li:hover ul,#mainlevelmainnav li li:hover ul,#mainlevelmainnav li li li:hover ul,#mainlevelmainnav li.sfhover
+  ul,#mainlevelmainnav li li.sfhover ul,#mainlevelmainnav li li li.sfhover ul {
+    left:auto;
+    z-index:6000;
+}
+
+#mainlevelmainnav li li:hover,#mainlevelmainnav li li.sfhover {
+    background:#039 url(../images/soccerball.gif) 98% 50% no-repeat;
+
+
+
+/**** extra ***/
+
+
+/****************** Dropdown Menu styling starts here **************/
+.menusan
+{
+    /* Use these parameters to positions your menu. */
+    position: relative;
+    left: 10px;
+}
+
+.menusan, .menusan li, .menusan li ul { /* all lists */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menusan li a {
+    display: block;
+    width: 10em;
+    color:#FFFFFF ;
+    background-color:#BC031F;
+    border:2px solid #BC031F;
+    text-decoration:none;
+}
+
+.menusan li { /* all list items */
+    float: left;
+    width: 10em; /* The width is needed by the Opera browser. */
+    border-bottom:1px solid #ccc;
+}
+
+.menusan li ul { /* second-level lists */
+    position: absolute;
+    width: 10em;
+    left: -98%; /* Use left instead of display to hide menus; display: none isn’t read by screen readers. */
+}
+
+.menusan li a:hover {
+    border:2px solid #8C7AD6;
+    background-color:#8C7AD6;
+    color:#fff;
+}
+
+.menusan li:hover ul, .menusan li.sfhover ul  { /* lists nested under hovered list items */
+    left: auto; /* change this to 10px, 20px, etc for indenting the sub menu */
+}
+/* **************** Dropdown Menu styling end here ***************/
