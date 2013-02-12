@@ -1,4 +1,4 @@
- /**********Full Joomla 3.0 Site*********/
+ /**********Full Joomla 3.0 Site Developed By Dean*********/
  
  /****Front End Project****/ 
 /****I Build Full Functional Joomla CMS Sites using the various including in HTML5,CSS3,Javascript,JQuery,RWD,Joomls 3.0 etc****/
