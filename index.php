@@ -35,13 +35,12 @@ $rightbar = 1;
 <!--JS Script -->
 
  <!-- BEGIN Navigation bar CSS - This is where the magic happens -->
-    <link rel="stylesheet" href="templates/magazine/css/demo.css">
-    <link rel="stylesheet" href="templates/magazine/css/navbar.css">
-    <!-- END Navigation bar CSS -->
-
-    <script type="text/javascript" src="templates/magazine/ISF Slider/compressed.js"></script>
-   <script type="text/javascript" src="templates/magazine/ISF Slider/script.js"></script>
-   <! --[If lte IE 8]>
+<link rel="stylesheet" href="templates/magazine/css/demo.css">
+<link rel="stylesheet" href="templates/magazine/css/navbar.css">
+<!-- END Navigation bar CSS -->
+<script type="text/javascript" src="templates/magazine/ISF Slider/compressed.js"></script>
+<script type="text/javascript" src="templates/magazine/ISF Slider/script.js"></script>
+<!-[If lte IE 8]-->
   <link rel="stylesheet" type="text/css" href=:ie_hacks />
     <script type="text/javascript" src="templates/magazine/js/equalcloumn.js"></script>
 <![endif] -->
@@ -51,9 +50,6 @@ $rightbar = 1;
    so.addParam("wmode", "transparent");
    so.addParam("salign", "t");
    so.write("flashcontent");
-
-
-
 </script>
  <!-- BEGIN JavaScript -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -95,7 +91,7 @@ $rightbar = 1;
  </div>
 </div>
 <?php if ($this-> countModules ("navmenu")); ?>
-<jdoc: />
+<jdoc:include="modules" name="navmenu" />
 <ul id="menusan">
         <li><a href="http://localhost/magazine/index.php">HOME</a>
         </li>
@@ -254,12 +250,6 @@ PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
       <a href="#"><img src="templates/magazine/ISF Slider/thumbnails/Kattyperry.jpg" alt="Katty Perry" /></a>
     </li>
     <li>
-      <h3>Katty Perry </h3>
-      <span>templates/magazine/ISF Slider/photos/Kattyperry2.jpg</span>
-      <p>Grammy Awards 2013</p>
-      <a href="#"><img src="templates/magazine/ISF Slider/thumbnails/Kattyperry2.jpg" alt="Katty Perry" /></a>
-    </li>    
-    <li>
       <h3>Cheryl Crow at the Grammy Awards</h3>
       <span>templates/magazine/ISF Slider/photos/Cheryl-Crow.jpg</span>
       <p>Grammy Awards 2013</p>
@@ -281,13 +271,13 @@ PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
       <h3>Angela Basset at the Image Awards</h3>
       <span>templates/magazine/ISF Slider/photos/angelabasset.jpg</span>
       <p>Image Awards 2013</p>
-      <a href="#"><img src="templates/magazine/ISF Slider/thumbnails/angelabasset2.jpg" alt="M.I.A. plus a friend" /></a>
+      <a href="#"><img src="templates/magazine/ISF Slider/thumbnails/angelabasset2.jpg" alt="Angela Basett" /></a>
     </li>  
     <li>
       <h3>Grammy Awards 2013</h3>
       <span>templates/magazine/ISF Slider/photos/Grammylogo.jpg</span>
-      <p>2011</p>
-      <a href="#"><img src="templates/magazine/ISF Slider/thumbnails/GrammyLogo2.jpg"  alt="Grammy 2011 Logo" /></a>
+      <p>2013</p>
+      <a href="#"><img src="templates/magazine/ISF Slider/thumbnails/GrammyLogo2.jpg"  alt="Grammy 2013 Logo" /></a>
     </li>  
     <li>    
       <h3>Bridget Marquardt</h3>
@@ -382,20 +372,19 @@ PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
 <div id="LatestNews">
 <ul>
 <span style="color=#733DB2;font-family:San-Serif,Arial,Helvetica;font-size:14px;"></span><em>Latest News:</em></span>
-<div style="color=black;font-family:San-Serif,Arial,Helvetica;font-size:12px;">
-
-
-<strong><em>Definition of ISF:</em></strong>
+<span style="color=#000;font-family:San-Serif,Arial,Helvetica;font-size:12px;">
+<h4>Definition of ISF:  </h4>
 <p>A passion for fashion and curiosty for discovering new ways </p>
-    <p>to maximize the potential of ISF led to the establishment of ISF solutions.
-It is this passion combined with solid background in fashion and retail that has made us the preferedvative technology platform
+<p>to maximize the potential of ISF led to the establishment of ISF solutions. </p>
+<p>It is this passion combined with solid background in fashion and </p>
+<p>retail that has made us the preferedvative technology platform </p>
 allows us to efficiently ISF partner for leading brands in the fashion industry.</p>
-<p>We believe the only way to succeed in ISF is to start with the basics.
-This is why we designed our services around the processes that brands must excel in to build a successful business.
-We combine retail best practices with a unique infrascture,robust technology and a team of retail </p>
-    <p>
-and ISF professional that will help grow your business.
-Our infrastructure and inefficiently handle every aspect of ISF online business.</p>
+<p>We believe the only way to succeed in ISF is to start with the basics.  </p>
+<p>This is why we designed our services around the processes that brands </p>
+<p>must excel in to build a successful business.</p>
+<p>We combine retail best practices with a unique infrascture,robust technology and a team of retail </p>
+<p>and ISF professional that will help grow your business.</p>
+<p>Our infrastructure and inefficiently handle every aspect of ISF online business.</p>
 </ul>
 </span>
 <div>
@@ -405,11 +394,11 @@ Our infrastructure and inefficiently handle every aspect of ISF online business.
 <jdoc:include type="modules" name="banner-middle" />
 <div id="bottom">
 <ul>
-<li><img src="templates/magazine/jpgs/ad1.gif" width="125px" height="125px" border="0" align="left" alt="ad1"/></li>
+<li><img src="templates/magazine/jpgs/ad1.gif" width="125px" height="125px" border="0" align="middle" alt="ad1"/></li>
 <li><img src="templates/magazine/jpgs/ad2.jpg" width="125px" height="125px" border="0" align="middle" alt="ad2"/></li>
 <li><img src="templates/magazine/jpgs/ad7.gif" width="125px" height="125px" border="0" align="middle" alt="ad7"/></li>
 <li><img src="templates/magazine/jpgs/ad5.jpg" width="125px" height="125px" border="0" align="middle" alt="ad5"/></li>
-<li><img src="templates/magazine/jpgs/ad6.jpg" width="125px" height="125px" border="0" align="left" alt="ad6"/></li>
+<li><img src="templates/magazine/jpgs/ad6.jpg" width="125px" height="125px" border="0" align="middle" alt="ad6"/></li>
 </ul>
 
 </div>
@@ -465,7 +454,7 @@ Our infrastructure and inefficiently handle every aspect of ISF online business.
                     <ul>
 
                         <li>
-                            <a href="http://localhost/magazine/index.php">Home</a>
+                            <a href="http://localhost/magazine/index.php">HOME</a>
                         </li>
                     </ul>
 
@@ -552,7 +541,7 @@ Our infrastructure and inefficiently handle every aspect of ISF online business.
                 <div class="footer-block legal">
 
                     <address>
-                        <a href="mailto:moneymint23@yahoo.com"> Contact ISF Magazine </a>
+                        <a href="mailto:moneymint23@yahoo.com"> CONTACT WEBMASTER </a>
                     </address>
 
                     <p>

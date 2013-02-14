@@ -12,9 +12,9 @@ section {
 display: block;
 }
 
-
 body {
-background-image: url('../jpgs/ISFbackground1.jpg') no-repeat;
+/**background-image: url('../jpgs/ISFbackground1.jpg');**/
+background-color: #4630ff;
 text-align:center;
 margin:20px;
 padding:0;
@@ -104,7 +104,7 @@ position:relative;
 #LatestNews{
 position:relative;
 font-family:Arial,sans-serif,Helvetica;
-width: 60%;
+width: 50%;
 float:left;
 }
 
@@ -192,22 +192,26 @@ position: relative;
 z-index: 1;
 }
 #bottom {
-text-align: center;
+float:left;
 list-style-type:none;
 position:relative;
-width:60%;
 z-index: 1000;
 
 }
 /***** Footer *****/
-h3 !important {
-font-size: 12px;
+h3 {
+font-size: 11px;
 margin-bottom: 0;
+}
+
+h4{
+font-size: 14px;
+font-color: ;
+font-family:San-Serif,Arial,Helvetica;
 }
 
 footer,li,ul, a{
 position:relative;
-text-decoration:none;
 font-family:Arial, Helvetica, Verdana, sans-serif;
 color:#FFF;
 text-decoration:none;
