@@ -15,11 +15,11 @@ display: block;
 body {
 /**background-image: url('../jpgs/ISFbackground1.jpg');**/
 background-color: #4630ff;
-text-align:center;
 margin:20px;
 padding:0;
 font:normal 0.8em/1.2em verdana,arial,sans-serif;
 color:#FFF;
+position:absolute;
 
 }
 #nav {background:#000; width: 100%; }
@@ -39,7 +39,7 @@ color:#9343B9;
 #wrapper1 {
 position:relative;
 width:100%;
-background:#FFF url('../images/rightcolor_bg.gif') repeat-y top right;
+background:#FFF url('templates/images/rightcolor_bg.gif') repeat-y top right;
 }
 #wrapper2 {
 position:relative;
@@ -102,10 +102,15 @@ position:relative;
 }
 
 #LatestNews{
-position:relative;
+
 font-family:Arial,sans-serif,Helvetica;
 width: 50%;
 float:left;
+}
+
+#LatestNews.magazinebox{
+display:inline;
+text-align:right;
 }
 
 video{
@@ -191,8 +196,9 @@ float: left;
 position: relative;
 z-index: 1;
 }
-#bottom {
-float:left;
+#bottom,ul,li {
+text-align: center;
+display:inline;
 list-style-type:none;
 position:relative;
 z-index: 1000;
@@ -206,7 +212,7 @@ margin-bottom: 0;
 
 h4{
 font-size: 14px;
-font-color: ;
+font-color:#FFF;
 font-family:San-Serif,Arial,Helvetica;
 }
 
@@ -293,5 +299,21 @@ overflow: hidden;
 }
 
 /***** Mobile Width ****/
+
+/****Search Bar ***/
+
+
+/****Field Set ****/
+
+#fieldset, img {
+    border-bottom-width:0;
+    border-color:initial;
+    border-left-width:0;
+    border-right-width:0;
+    border-style:initial;
+    border-top-width:0;
+}
+
+
 
 	

@@ -40,10 +40,10 @@ $rightbar = 1;
 <!-- END Navigation bar CSS -->
 <script type="text/javascript" src="templates/magazine/ISF Slider/compressed.js"></script>
 <script type="text/javascript" src="templates/magazine/ISF Slider/script.js"></script>
-<!-[If lte IE 8]-->
+<!--[If lte IE 8]-->
   <link rel="stylesheet" type="text/css" href=:ie_hacks />
     <script type="text/javascript" src="templates/magazine/js/equalcloumn.js"></script>
-<![endif] -->
+<!--[endif] -->
 <script type="text/javascript">
    var so = new SWFObject("BeyonceHD.swf", "mymovie", "400", "100%", "8", "#336699");
    so.addParam("quality", "high");
@@ -86,9 +86,9 @@ $rightbar = 1;
 
 <a href="http://localhost.com/magazine1/index.php"><img src="templates/magazine/jpgs/ISFlogobanner.jpg" width="353px" height="110px"/></a>
 <a href="http://www.chanel.com"><img src="templates/magazine/imagebanners/ISFbannerblk.jpg" width="728px" height="90px"/></a>
-</tr> 
-</table> 
- </div>
+</tr>
+</table>
+</div>
 </div>
 <?php if ($this-> countModules ("navmenu")); ?>
 <jdoc:include="modules" name="navmenu" />
@@ -202,9 +202,9 @@ PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
    </li>
     <li>
       <h3>Rihanna</h3>
-      <span>templates/magazine/ISF Slider/photos/rihannaba12.jpg</span>
+      <span>templates/magazine/ISF Slider/photos/rihannaba123.jpg</span>
       <p>Billboard Awards 2013</p>
-      <a href="#"><img src="templates/magazine1/ISF Slider/thumbnails/rihannaba12.jpg" alt="Rihanna" /></a>
+      <a href="#"><img src="templates/magazine1/ISF Slider/thumbnails/rihannaba123.jpg" alt="Rihanna" /></a>
    </li>
     <li>
       <h3>Rihanna Close Up</h3>
@@ -370,7 +370,6 @@ PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
 </div>
 
 <div id="LatestNews">
-<ul>
 <span style="color=#733DB2;font-family:San-Serif,Arial,Helvetica;font-size:14px;"></span><em>Latest News:</em></span>
 <span style="color=#000;font-family:San-Serif,Arial,Helvetica;font-size:12px;">
 <h4>Definition of ISF:  </h4>
@@ -378,27 +377,27 @@ PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
 <p>to maximize the potential of ISF led to the establishment of ISF solutions. </p>
 <p>It is this passion combined with solid background in fashion and </p>
 <p>retail that has made us the preferedvative technology platform </p>
-allows us to efficiently ISF partner for leading brands in the fashion industry.</p>
+<p>allows us to efficiently ISF partner for leading brands in the fashion industry.</p>
 <p>We believe the only way to succeed in ISF is to start with the basics.  </p>
 <p>This is why we designed our services around the processes that brands </p>
 <p>must excel in to build a successful business.</p>
 <p>We combine retail best practices with a unique infrascture,robust technology and a team of retail </p>
 <p>and ISF professional that will help grow your business.</p>
 <p>Our infrastructure and inefficiently handle every aspect of ISF online business.</p>
-</ul>
 </span>
-<div>
+<div class="magazinebox"><img src="templates/magazine/images/7048-MAG.jpg" width="400px" height="519px"/></div>
 
 
+</div>
 <?php if ($this-> countModules ("banner-middle")); ?>
 <jdoc:include type="modules" name="banner-middle" />
 <div id="bottom">
 <ul>
-<li><img src="templates/magazine/jpgs/ad1.gif" width="125px" height="125px" border="0" align="middle" alt="ad1"/></li>
-<li><img src="templates/magazine/jpgs/ad2.jpg" width="125px" height="125px" border="0" align="middle" alt="ad2"/></li>
-<li><img src="templates/magazine/jpgs/ad7.gif" width="125px" height="125px" border="0" align="middle" alt="ad7"/></li>
-<li><img src="templates/magazine/jpgs/ad5.jpg" width="125px" height="125px" border="0" align="middle" alt="ad5"/></li>
-<li><img src="templates/magazine/jpgs/ad6.jpg" width="125px" height="125px" border="0" align="middle" alt="ad6"/></li>
+<li><img src="templates/magazine/jpgs/ad1.gif" width="125px" height="125px" border="0"  alt="ad1"/></li>
+<li><img src="templates/magazine/jpgs/ad2.jpg" width="125px" height="125px" border="0"  alt="ad2"/></li>
+<li><img src="templates/magazine/jpgs/ad7.gif" width="125px" height="125px" border="0"  alt="ad7"/></li>
+<li><img src="templates/magazine/jpgs/ad5.jpg" width="125px" height="125px" border="0" alt="ad5"/></li>
+<li><img src="templates/magazine/jpgs/ad6.jpg" width="125px" height="125px" border="0" alt="ad6"/></li>
 </ul>
 
 </div>
@@ -545,11 +544,9 @@ allows us to efficiently ISF partner for leading brands in the fashion industry.
                     </address>
 
                     <p>
-                        ISF Magazine (&reg; or TM) and copyrighted (&copy;) 2011-2013
-
-                        trademarks of ISF Magazine | The World's Famous Magazine Inc.,
+                        ISFMagazine.com is part of the ISF Inc. Copyright &copy; 2013 ISF Inc. InStyle is a registered trademark of ISF Inc. All rights reserved.
                         <a id="_GPLITA_0" title="Powered by Text-Enhance" style="text-decoration:underline" href="#" in_rurl="http://www.textsrv.com/click?v=VVM6MTUxOTA6NTY1OnJlZ2lzdGVyZWQ6ODNmNGQyM2NiMGYxNTlkMWE0NWJmM2Q3MThiODM0ODc6ei0yMS0xMTQ0NDp3d3cuZGFya2hvcnNlLmNvbQ">registered</a>
-                        in various categories and countries.  </p>
+                         </p>
 
 
 
